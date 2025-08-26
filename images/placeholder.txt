@@ -1,0 +1,24 @@
+This folder contains placeholder images for the birthday website.
+
+Replace these .png files with your actual photos of Layan:
+
+HERO SECTION:
+- hero-layan.png (Main photo of Layan for the hero section)
+
+MEMORIES SECTION (4 photos):
+- layan-1.png (Photo of Layan for "First Time I Saw You" memory)
+- layan-2.png (Photo of Layan for "Late Night Phone Calls" memory)
+- layan-3.png (Photo of Layan for "University Hangouts" memory)
+- layan-4.png (Photo of Layan for "Gaming Together" memory)
+
+MESSAGE SECTION:
+- layan-5.png (Special photo of Layan for the message section)
+
+Recommended image sizes:
+- Hero image: 400x400px (will be displayed as a circle)
+- Memory images: 300x200px
+- Message image: 300x300px (will be displayed as a circle)
+
+All images should be in PNG format for best quality.
+
+The website now only needs 5 photos of Layan total, making it much simpler to set up!

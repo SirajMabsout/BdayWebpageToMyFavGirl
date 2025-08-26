@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Layan ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-heart"></i> Laylay
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#memories" class="nav-link">Memories</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reasons" class="nav-link">Why I Love You</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#wishes" class="nav-link">Birthday Wishes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#message" class="nav-link">Special Message</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="floating-hearts">
+                <i class="fas fa-heart heart-1"></i>
+                <i class="fas fa-heart heart-2"></i>
+                <i class="fas fa-heart heart-3"></i>
+                <i class="fas fa-heart heart-4"></i>
+                <i class="fas fa-heart heart-5"></i>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-layan.png" alt="Layan" class="hero-photo" onerror="handleImageError(this)">
+            </div>
+            <h1 class="hero-title">Happy Birthday</h1>
+            <h2 class="hero-subtitle">My Beautiful Laylay</h2>
+            <p class="hero-text">Today is all about celebrating the most amazing person in my life - you, Layan!</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('memories')">
+                    <i class="fas fa-star"></i> Start Journey
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSection('message')">
+                    <i class="fas fa-envelope"></i> Special Message
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Memories Section -->
+    <section id="memories" class="memories">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="memories-grid">
+                <div class="memory-card" data-aos="fade-up">
+                    <div class="memory-image">
+                        <img src="images/layan-1.png" alt="First Time I Saw You" onerror="handleImageError(this)">
+                    </div>
+                    <div class="memory-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>First Time I Saw You</h3>
+                    <p>Remember the first time I came to the university to see you, Laylay? I had no idea that you would be my wife one day. Your beauty took my breath away from that very first moment.</p>
+                </div>
+                <div class="memory-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="memory-image">
+                        <img src="images/layan-2.png" alt="Late Night Phone Messages" onerror="handleImageError(this)">
+                    </div>
+                    <div class="memory-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Late Night Phone Messages</h3>
+                    <p>Those endless conversations through messages, sharing dreams and laughing until our sides hurt, Laylay. Your words were the sweetest thing I'd ever read.</p>
+                </div>
+                <div class="memory-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="memory-image">
+                        <img src="images/layan-3.png" alt="University Hangouts" onerror="handleImageError(this)">
+                    </div>
+                    <div class="memory-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>University Hangouts</h3>
+                    <p>When I would come to your university and we'd walk around the place together, going to the supermarket and just enjoying each other's company, Layan.</p>
+                </div>
+                <div class="memory-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="memory-image">
+                        <img src="images/layan-4.png" alt="Gaming Together" onerror="handleImageError(this)">
+                    </div>
+                    <div class="memory-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Gaming Together</h3>
+                    <p>Playing video games together, especially Stardew Valley, where we spent endless hours enjoying our time and falling in love more and more, Laylay.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons Section -->
+    <section id="reasons" class="reasons">
+        <div class="container">
+            <h2 class="section-title">Why I Love You, Laylay</h2>
+            <div class="reasons-list">
+                <div class="reason-item" data-aos="fade-right">
+                    <div class="reason-number">01</div>
+                    <div class="reason-content">
+                        <h3>Your Beautiful Smile</h3>
+                        <p>Layan, your smile is like sunshine breaking through clouds, brightening every moment of my day.</p>
+                    </div>
+                </div>
+                <div class="reason-item" data-aos="fade-left">
+                    <div class="reason-number">02</div>
+                    <div class="reason-content">
+                        <h3>Your Kind Heart</h3>
+                        <p>Laylay, your compassion and kindness towards everyone around you makes the world a better place.</p>
+                    </div>
+                </div>
+                <div class="reason-item" data-aos="fade-right">
+                    <div class="reason-number">03</div>
+                    <div class="reason-content">
+                        <h3>Your Strength</h3>
+                        <p>Layan, you face every challenge with grace and determination, inspiring me to be better every day.</p>
+                    </div>
+                </div>
+                <div class="reason-item" data-aos="fade-left">
+                    <div class="reason-number">04</div>
+                    <div class="reason-content">
+                        <h3>Your Laughter</h3>
+                        <p>Laylay, your laugh is the most beautiful sound in the world, making my heart skip a beat every time.</p>
+                    </div>
+                </div>
+                <div class="reason-item" data-aos="fade-right">
+                    <div class="reason-number">05</div>
+                    <div class="reason-content">
+                        <h3>Your Love</h3>
+                        <p>Layan, you love me unconditionally, flaws and all, making me feel like the luckiest person alive.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Wishes Section -->
+    <section id="wishes" class="wishes">
+        <div class="container">
+            <h2 class="section-title">Birthday Wishes for Laylay</h2>
+            <div class="wishes-carousel">
+                <div class="wish-card active">
+                    <div class="wish-content">
+                        <i class="fas fa-birthday-cake wish-icon"></i>
+                        <h3>May Your Day Be Magical</h3>
+                        <p>On your special day, Laylay, I wish for you all the happiness, love, and joy that you bring to my life every single day. You deserve the world and so much more.</p>
+                    </div>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-content">
+                        <i class="fas fa-star wish-icon"></i>
+                        <h3>Dreams Come True</h3>
+                        <p>May all your dreams and aspirations come true this year, Layan. You have the power to achieve anything you set your mind to, and I'll be here cheering you on every step of the way.</p>
+                    </div>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-content">
+                        <i class="fas fa-heart wish-icon"></i>
+                        <h3>Endless Love</h3>
+                        <p>I promise to love you more with each passing day, Laylay, to be your biggest supporter, your best friend, and your soulmate forever. Happy Birthday, my love!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" onclick="changeWish(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentWish(1)"></span>
+                    <span class="dot" onclick="currentWish(2)"></span>
+                    <span class="dot" onclick="currentWish(3)"></span>
+                </div>
+                <button class="carousel-btn next" onclick="changeWish(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Love Story</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-gamepad"></i>
+                        <p>We Play Together PUBG</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-comments"></i>
+                        <p>We Start Texting</p>
+                        <small>3 Years Later</small>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-university"></i>
+                        <p>We Met at University</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-heart"></i>
+                        <p>We Fell in Love</p>
+                        <small>Without Showing</small>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-envelope"></i>
+                        <p>We Confessed</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-infinity"></i>
+                        <p>Our Love Will Continue</p>
+                        <small>Forever</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Message Section -->
+    <section id="message" class="message">
+        <div class="container">
+            <div class="message-content">
+                <div class="message-header">
+                    <div class="message-image">
+                        <img src="images/layan-5.png" alt="Layan" onerror="handleImageError(this)">
+                    </div>
+                    <i class="fas fa-envelope-open"></i>
+                    <h2>A Special Message For You, Laylay</h2>
+                </div>
+                <div class="message-text">
+                    <p>My dearest Layan,</p>
+                    <p>On this special day, I want you to know how much you mean to me. You are not just my girlfriend, you are my best friend, my soulmate, my everything. Every moment with you feels like a dream come true.</p>
+                    <p>Every morning I wake up grateful that you're in my life, Laylay. Your love has made me a better person, and your presence fills my heart with joy that I never knew was possible. You are the missing piece that completes my puzzle.</p>
+                    <p>You are the most beautiful person I've ever known, both inside and out. Your kindness, your strength, your intelligence, and your beautiful spirit make you absolutely perfect in my eyes. Your smile lights up my world like nothing else can.</p>
+                    <p>I promise to love you more with each passing day, to be there for you through thick and thin, to support your dreams, and to cherish every moment we share together. You are my greatest blessing, my biggest adventure, and my forever love.</p>
+                    <p>Happy Birthday, my love! May this year bring you all the happiness, success, and love that you deserve. I can't wait to celebrate many more birthdays with you, Laylay. I want to grow old with you, share every moment of our lives together, and love you more with each passing year.</p>
+                    <p>You are my today, my tomorrow, and my forever. I love you more than words can express, more than the stars in the sky, more than the ocean is deep. You are my everything.</p>
+                    <p>Forever yours,<br>With all my love ❤️</p>
+                </div>
+                <div class="message-footer">
+                    <button class="btn btn-primary" onclick="scrollToSection('home')">
+                        <i class="fas fa-home"></i> Back to Top
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Made with <i class="fas fa-heart"></i> for the most amazing person in my life - Laylay</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
